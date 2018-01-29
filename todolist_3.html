@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>To-Do List</title>
+    <script type="text/javascript" src="js/todolist_3.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/todolist_3.css">
+  </head>
+ 
+  <body>
+    <div>
+      <input type="text" id="input">  
+      <button onclick="createToDo()"> + </button>
+      <form id="states">
+        <input type="radio" id="state1" name="state" value="urgent" checked>緊急
+        <input type="radio" id="state2" name="state" value="not-urgent">不緊急
+      </form>
+      <div id="todolist">
+      </div>
+      
+    </div>
+  </body>
+
+</html>
